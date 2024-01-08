@@ -1,8 +1,8 @@
 const sequelize = require('sequelize');
 
-const DB_DATABASE = process.env.DB_DATABASE || "kubenews";
-const DB_USERNAME = process.env.DB_USERNAME || "kubenews";
-const DB_PASSWORD = process.env.DB_PASSWORD || "133007";
+const DB_DATABASE = process.env.DB_DATABASE || "########";
+const DB_USERNAME = process.env.DB_USERNAME || "########";
+const DB_PASSWORD = process.env.DB_PASSWORD || "######";
 const DB_HOST = process.env.DB_HOST || "localhost";
 
 const seque = new sequelize.Sequelize(DB_DATABASE, DB_USERNAME, DB_PASSWORD, {
